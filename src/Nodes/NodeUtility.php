@@ -32,7 +32,7 @@ class NodeUtility
         'whitespace' => '/^\s*$/',
         'hasContent' => '/\S$/',
         'positive' => '/article|body|content|entry|hentry|h-entry|main|page|pagination|post|text|blog|story/i',
-        'negative' => '/-ad-|hidden|^hid$| hid$| hid |^hid |banner|combx|comment|com-|contact|foot|footer|footnote|gdpr|masthead|media|meta|outbrain|promo|related|scroll|share|shoutbox|sidebar|skyscraper|sponsor|shopping|tags|tool|widget/i',
+        'negative' => '/-ad-|hidden|^hid$| hid$| hid |^hid |banner|cookie|combx|comment|com-|contact|foot|footer|footnote|gdpr|masthead|media|meta|outbrain|promo|related|scroll|share|shoutbox|sidebar|skyscraper|sponsor|shopping|tags|tool|widget/i',
         // \x{00A0} is the unicode version of &nbsp;
         'onlyWhitespace' => '/\x{00A0}|\s+/u',
         'hashUrl' => '/^#.+/',
